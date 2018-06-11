@@ -1,0 +1,12 @@
+$ttl 38400
+kyng.be.	IN	SOA	ns.kyng.be. webmaster.kyng.be. (
+            1496495389
+            10800
+            3600
+            604800
+            38400 )
+kyng.be.	IN	NS	ns.kyng.be.
+www.kyng.be.	IN	A	149.202.60.72
+b2b.kyng.be.	IN	CNAME	www.kyng.be.
+intranet.kyng.be.	IN	CNAME	www.kyng.be.
+ns.kyng.be.	IN	A	149.202.60.72
