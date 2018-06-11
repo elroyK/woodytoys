@@ -1,4 +1,4 @@
 FROM bash
 LABEL maintainer "he201222@students.ephec.be"
 
-CMD echo "Hello World" >> /vol/test.txt
+RUN echo "Hello World" >> /vol/test.txt
