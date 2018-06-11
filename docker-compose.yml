@@ -3,7 +3,11 @@ version: '0.1'
 services:
 
     bind:
-        build: ./dns/
-        container_name: bind
+        restart: always
+        image: sameersbn/bind:9.9.5-20161106
+        ports:
+        - "53:53/udp"
+        - "53:53/tcp"
+        - "10000:10000/tcp"
         volumes:
-            - './volumes:/vol'
+        - '/volumes/dns:/data'
