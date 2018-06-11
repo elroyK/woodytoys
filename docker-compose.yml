@@ -6,4 +6,4 @@ services:
         build: ./test/
         container_name: hello-world
         volumes:
-            - ./volumes/test:/vol
+            - './volumes/test:/vol'
