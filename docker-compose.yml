@@ -2,8 +2,8 @@ version: '0.1'
 
 services:
 
-    test:
-        build: ./test/
-        container_name: hello-world
+    bind:
+        build: ./dns/
+        container_name: bind
         volumes:
-            - './volumes/test:/vol'
+            - './volumes:/vol'
