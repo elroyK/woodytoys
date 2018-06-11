@@ -5,4 +5,4 @@ services:
     test:
         build: ./test/
         image: kyng/test
-        container-name: hello-world
+        container_name: hello-world
