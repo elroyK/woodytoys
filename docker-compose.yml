@@ -3,4 +3,6 @@ version: '0.1'
 services:
 
     test:
-        build: './test/'
+        build: ./test/
+        image: kyng/test
+        container-name: hello-world
