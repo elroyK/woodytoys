@@ -14,27 +14,27 @@ container$ > apt-get install apache2
 
 #Création des dossiers pour accueillir le site interne
 
-container$ > mkdir –p /var/www/intranet.leroy.ephec-ti.be/public_html
+container$ > mkdir –p /var/www/intranet.leroy.kyng.be/public_html
 
 #Création de la page du site intranet
 
-container$ > nano /var/www/intranet.leroy.ephec-ti.be/public_html/index.html
+container$ > nano /var/www/intranet.leroy.kyng.be/public_html/index.html
 
 #Virtual Host
 
-nano /etc/apache2/sites-available/intranet.leroy.ephec-ti.be.conf
+nano /etc/apache2/sites-available/intranet.leroy.kyng.be.conf
 
 ##Script
 
-    ServerName intranet.leroy.ephec-ti.be
+    ServerName intranet.leroy.kyng.be
 
-    ServerAdmin admin@leroy.ephec-ti.be
-    DocumentRoot /var/www/intranet.leroy.ephec-ti.be/public_html
+    ServerAdmin admin@leroy.kyng.be
+    DocumentRoot /var/www/intranet.leroy.kyng.be/public_html
 
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
     
-    <Directory "/var/www/intranet.leroy.ephec-ti.be/public_html">
+    <Directory "/var/www/intranet.leroy.kyng.be/public_html">
         AllowOverride All
         allow from all
         Options -Indexes

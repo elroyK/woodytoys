@@ -14,18 +14,18 @@ container$ > apt-get install apache2
 
 #Création des dossiers pour accueillir les 2 sites extranet
 
-container$ > mkdir –p /var/www/www.leroy.ephec-ti.be/public_html
-container$ > mkdir –p /var/www/b2b.leroy.ephec-ti.be/public_html
+container$ > mkdir –p /var/www/www.leroy.kyng.be/public_html
+container$ > mkdir –p /var/www/b2b.leroy.kyng.be/public_html
 
 #Création des pages web des 2 sites extranet
 
-container$ > nano /var/www/www.leroy.ephec-ti.be/public_html/index.html
-container$ > nano /var/www/b2b.leroy.ephec-ti.be/public_html/index.html
+container$ > nano /var/www/www.leroy.kyng.be/public_html/index.html
+container$ > nano /var/www/b2b.leroy.kyng.be/public_html/index.html
 
 #Virtual Host
 
-nano /etc/apache2/sites-available/www.leroy.ephec-ti.be.conf
-nano /etc/apache2/sites-available/b2b.leroy.ephec-ti.be.conf
+nano /etc/apache2/sites-available/www.leroy.kyng.be.conf
+nano /etc/apache2/sites-available/b2b.leroy.kyng.be.conf
 
 ##Script
 
