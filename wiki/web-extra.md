@@ -1,8 +1,8 @@
 #Creation du container
 
-host$ > sudo docker run --name wt-extra -v ~/woodytoys/volumes/web/config/:/etc/apache2/ -v ~/woodytoys/volumes/web/www/:/var/www/ -p 8080:80 -dti ubuntu:xenial
+host$ > sudo docker run --name wt-extra -v ~/woodytoys/volumes/web/config/:/etc/apache2/ -v ~/woodytoys/volumes/web/www/:/var/www/ -p 8080:80 -dti ubuntu:xenial --ip=172.17.0.2 
 
-#Lancer bash dans ce container afin d'aller faire les manipulations nécessaires
+#Lancer bash dans ce container afin d'aller faire les manipulations nécessaires au déploiement d'Apache
 
 host$ > docker exec -it wt-www /bin/bash
 
