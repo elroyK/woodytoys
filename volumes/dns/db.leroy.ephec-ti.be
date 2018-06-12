@@ -10,7 +10,7 @@ $ORIGIN leroy.ephec-ti.be.
 
 @ IN NS ns.leroy.ephec-ti.be.
 
-	ns		IN	A	149.202.60.72
+	ns		IN	A	54.37.65.131
 	intranet	IN	A	54.37.65.131
 	b2b		IN	A	54.37.65.131
 	www		IN	A	54.37.65.131
