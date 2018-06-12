@@ -6,7 +6,7 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "wt9.ephec-ti.be." {
+zone "wt9.kyng.be." {
 	type master;
-	file "/etc/bind/db.leroy.ephec-ti.be";
+	file "/etc/bind/db.leroy.kyng.be";
 };
