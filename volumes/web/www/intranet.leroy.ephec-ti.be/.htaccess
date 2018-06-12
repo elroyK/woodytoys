@@ -1,4 +1,4 @@
-<Directory /var/www/intranet.leroy.kyng.be>
+<Directory /var/www/intranet.leroy.ephec-ti.be>
                 Options Indexes FollowSymLinks MultiViews
                 AllowOverride All
                 Order allow,deny
