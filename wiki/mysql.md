@@ -1,1 +1,1 @@
-sudo docker run --name wt-db -v ~/woodytoys/volumes/mysql/config/:/etc/mysql -v ~/woodytoys/volumes/mysql/db/:/var/lib/mysql/ -p 3306:3306 -dti ubuntu:xenial --net=dmz --ip=172.16.0.2
+sudo docker run --name wt-db -v ~/woodytoys/volumes/mysql/config/:/etc/mysql -v ~/woodytoys/volumes/mysql/db/:/var/lib/mysql/ -p 3306:3306 -dti --net=dmz --ip=172.16.0.2 ubuntu:xenial
