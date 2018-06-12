@@ -22,4 +22,15 @@ sudo mkdir –p /var/www/b2b.[DOMAIN]/public_html
 nano /var/www/www.[DOMAIN]/public_html/index.html
 nano /var/www/b2b.[DOMAIN]/public_html/index.html
 
-#
+#Virtual Host
+
+nano /etc/apache2/sites-available/[SUB].[DOMAIN].conf
+
+##Script
+
+    ServerName [PREFIX].[DOMAIN]
+        ServerAdmin [ADMIN MAIL]
+        DocumentRoot /var/www/[PREFIX].[DOMAIN]/public_html
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
